@@ -1,0 +1,60 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background: url("https://wallpaperaccess.com/full/1747712.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% ;
+    height: 100%;
+  }
+  .banner .movie-poster {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner figure .left {
+    width: 275px;
+    position: relative;
+    float: left;
+  }
+  .banner figure .left .poster{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47);
+  }
+  .banner figure .left .play_button {
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    margin: -40px 0 0 -40px;
+  }
+  .banner figure figcaption {
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 120px;
+  }
+  .banner figcaption .title {
+    display: inline;
+    font-size: 1.75em;
+    color: #FFFFFF;
+  }
+  .banner figcaption .description {
+    color: #272828;
+    font-size: 1em;
+    line-height: 2;
+  }
+  .banner figcaption .info {
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-top: 3em;
+  }
+  .banner figcaption .info span {
+    margin: 0 0.5em;
+  }
+  
